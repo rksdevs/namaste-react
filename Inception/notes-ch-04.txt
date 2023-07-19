@@ -1,0 +1,4 @@
+props: Props are nothing but arguements which are passed into the functional components
+whenever we want to change contents of a component dynamically, we can pass the data as a prop
+config-driven-ui: UIs which are made as per the data, difference in data or configs leads to different UI. Such UIs are called config driven UI
+A react developer needs to good at both the UI layer and the data layer

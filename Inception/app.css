@@ -1,3 +1,103 @@
-#heading {
-    color: purple
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.app {
+    height: 100vh;
+    background: #F2E3DB;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px 0 0;
+    height: 5vh;
+}
+
+.logo {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.nav-items {
+    display: flex;
+    align-items: center;
+}
+
+.nav-items > ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.restaurant-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.restaurant-card {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    background: #FFF4F4;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+
+.res-card-title {
+    font-family: 'Lobster', cursive;    
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    color: #263A29;
+}
+
+.restaurant-card > .res-card-details {
+    display: flex;
+    gap: 25%;
+    padding-left: 10px;
+}
+
+.res-card-img > img  {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.res-card-cuisine {
+    padding-bottom: 10px;
+    font-size: 12px;
+    font-weight: 600;
+    padding-left: 10px;
+    color: #41644a87;
+}
+
+
+.res-card-rating {
+    display: flex;
+    color: #E86A33;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.rating {
+    font-size: 10px;
+}
+
+.res-card-price {
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+    font-weight: 600;
+    color: #41644A;
 }
