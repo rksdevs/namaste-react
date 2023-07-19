@@ -1,7 +1,9 @@
-export const Header = () => {
+import { LOGO_URL } from "../utils/constants";
+
+const Header = () => {
     return <div className="header">
             <div className="logo-container">
-                <img className="logo" src="https://ps.w.org/mp-restaurant-menu/assets/icon-256x256.png?rev=2665784"/>
+                <img className="logo" src={LOGO_URL}/>
             </div>
             <div className="nav-items">
                 <ul>
@@ -14,3 +16,5 @@ export const Header = () => {
             </div>
         </div>
 }
+
+export default Header;

@@ -1,4 +1,4 @@
-export const RestaurantCard = ( {title, cuisine, rating, price, img}) => {
+const RestaurantCard = ( {title, cuisine, rating, price, img}) => {
     return <div className="restaurant-card">
             <div className="res-card-img"><img src={img}/></div>
             <div className="res-card-title">{title}</div>
@@ -10,3 +10,5 @@ export const RestaurantCard = ( {title, cuisine, rating, price, img}) => {
             </div>
     </div>
 }
+
+export default RestaurantCard;

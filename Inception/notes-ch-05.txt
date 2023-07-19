@@ -1,0 +1,3 @@
+1. There are 2 ways to export - Default export & Named export
+2. There can not be multiple default exports within one file, hence default export is used where there is only 1 variable which needs to be exported
+3. Named export can other wise help us exporting multiple variables within a single file hence is used where there are multiple exports needed.
