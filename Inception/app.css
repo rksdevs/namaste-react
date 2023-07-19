@@ -6,7 +6,6 @@
 }
 
 .app {
-    height: 100vh;
     background: #F2E3DB;
 }
 
@@ -61,6 +60,10 @@
     margin-bottom: 10px;
     padding-left: 10px;
     color: #263A29;
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .restaurant-card > .res-card-details {
@@ -72,6 +75,10 @@
 .res-card-img > img  {
     width: 100%;
     border-radius: 10px;
+    object-fit: cover;
+    height: 250px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
 }
 
 .res-card-cuisine {
@@ -80,6 +87,10 @@
     font-weight: 600;
     padding-left: 10px;
     color: #41644a87;
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 
