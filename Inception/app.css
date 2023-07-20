@@ -51,6 +51,7 @@
     background: #FFF4F4;
     border-radius: 10px;
     padding-bottom: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .res-card-title {
@@ -111,4 +112,12 @@
     align-items: center;
     font-weight: 600;
     color: #41644A;
+}
+
+.filter-btn {
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid black;
 }
