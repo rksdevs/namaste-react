@@ -3,7 +3,7 @@ import RestaurantContainer from "./RestaurantContainer";
 
 const MainContainer = () => {
     return <div className="main-container">
-        <Search />
+        {/* <Search /> */}
         <RestaurantContainer />
     </div>
 }

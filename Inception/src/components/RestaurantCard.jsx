@@ -6,7 +6,7 @@ const RestaurantCard = ( {title, cuisine, rating, price, img}) => {
             <div className="res-card-details">
                 {/* <ResCardRating rating={rating}/> */}
                 <div className="res-card-rating">Ratings: {rating}</div>
-                <div className="res-card-price">{price} for two</div>
+                <div className="res-card-price">{price}</div>
             </div>
     </div>
 }
